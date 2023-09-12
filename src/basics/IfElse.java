@@ -20,5 +20,8 @@ public class IfElse {
         } else {
             System.out.println(x+" is not in range of [-100, 100]");
         }
+
+        // close() method to terminate the Scanner class.
+        scanner.close();
     }
 }
